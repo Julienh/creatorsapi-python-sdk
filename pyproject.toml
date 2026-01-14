@@ -22,5 +22,5 @@ dependencies = [
 Homepage = "https://github.com/Julienh/creatorsapi-python-sdk"
 Repository = "https://github.com/Julienh/creatorsapi-python-sdk"
 
-[tool.setuptools]
-packages = ["creatorsapi_python_sdk"]
+[tool.setuptools.packages.find]
+include = ["creatorsapi_python_sdk*"]
