@@ -23,4 +23,4 @@ Homepage = "https://github.com/Julienh/creatorsapi-python-sdk"
 Repository = "https://github.com/Julienh/creatorsapi-python-sdk"
 
 [tool.setuptools]
-packages = ["creatorsapi"]
+packages = ["creatorsapi_python_sdk"]
