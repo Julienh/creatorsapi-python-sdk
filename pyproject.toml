@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "creatorsapi-python-sdk"
+version = "0.1.0"
+description = "SDK Python for API Creators"
+authors = [{name = "Julien", email = "julien@exemple.com"}]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "python-dateutil>=2.5.3",
+    "setuptools>=21.0.0",
+    "urllib3>=1.25.3,<2.1.0",
+    "pydantic>=2",
+    "typing-extensions>=4.7.1",
+    "requests>=2.25.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Julienh/creatorsapi-python-sdk"
+Repository = "https://github.com/Julienh/creatorsapi-python-sdk"
+
+[tool.setuptools]
+packages = ["creatorsapi"]
